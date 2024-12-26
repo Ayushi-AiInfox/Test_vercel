@@ -3,7 +3,8 @@
     "builds": [
       {
         "src": "test.html",
-        "use": "test.html"
+        "use": "test.html",
+        "dest": "/"
       }
     ]
   }
