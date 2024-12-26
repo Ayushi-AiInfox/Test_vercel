@@ -1,11 +1,9 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "test.html",
-        "use": "test.html",
-        "dest": "/"
-      }
-    ]
-  }
-  
+  "version": 2,
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/test.html"
+    }
+  ]
+}
